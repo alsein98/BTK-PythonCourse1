@@ -5,7 +5,7 @@ print(dir(random))
 '_e', '_exp', '_floor', '_index', '_inst', '_isfinite', '_log', '_os', '_pi', '_random', '_repeat', '_sha512', '_sin', '_sqrt', '_test', '_test_generator', '_urandom', '_warn', 'betavariate', 'choice', 'choices', 'expovariate', 'gammavariate', 'gauss', 'getrandbits', 'getstate', 'lognormvariate', 'normalvariate', 'paretovariate', 'randbytes', 'randint', 'random', 'randrange', 'sample', 'seed', 'setstate', 'shuffle', 'triangular', 'uniform', 'vonmisesvariate', 'weibullvariate']
 """
 print(random.random()*100)
-print(random.uniform(60, 100))
+print(random.uniform(60, 100)) # from to
 print(random.randint(60, 100))
 names=["ahmad","ali","khaled","huseyin"]
 print(names[random.randint(0, len(names)-1)])
@@ -16,8 +16,8 @@ print(l1)
 random.shuffle(l1)
 print(l1)
 l2=range(100)
-res=random.sample(l2, 60)
-print(res)
+res=random.sample(l2, 10)
+print("**",res)
 l3=[0,1]
 for i in range(16-1):
     print(random.sample(names, 4))
