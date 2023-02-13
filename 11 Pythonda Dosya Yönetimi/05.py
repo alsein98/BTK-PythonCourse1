@@ -1,5 +1,5 @@
-with open("file4.txt","r+") as file: # read and write
-    pass
+#with open("file4.txt","r+") as file: # read and write
+ #   pass
 
 
 
