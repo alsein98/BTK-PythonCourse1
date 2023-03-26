@@ -1,7 +1,8 @@
 # "r" read - if didnt exist raise Error
 
 
-file2=open("file2.txt","r")
+file2=open("file2.txt","a")
+print(file2.isatty())
 """
 print("--",file2.readline())
 print("--",file2.readline())
